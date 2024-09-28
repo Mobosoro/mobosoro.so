@@ -12,6 +12,6 @@ sequenceDiagram
     WebServer ->> Firewall: Detects traffic spike
     Firewall ->> WebServer: Does protective  actions
     Firewall ->> BotNet: Blocks suspicious IP addresses
-    BotNet -->> WebServer: Continues sending requests
+    BotNet ->> WebServer: Continues sending requests
     WebServer ->> Attacker: Legitimate users Cannot connect
     Firewall ->> Attacker: Notifies about blocked IPs
