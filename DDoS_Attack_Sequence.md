@@ -18,7 +18,7 @@ sequenceDiagram
     Firewall ->> Attacker: Notifies about blocked IPs.
 
 ```
-##Documentation
+## Documentation
     Attacker to BotNet: The nework attacker controls a botnet and sends commands to begin the attack.
     
     BotNet to Webserver: Botnet recieves the request and starts sending an overwhelming amount of traffic to the webserver.
