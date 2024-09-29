@@ -13,5 +13,5 @@ sequenceDiagram
     Firewall ->> WebServer: Does protective  actions
     Firewall ->> BotNet: Blocks suspicious IP addresses
     BotNet ->> WebServer: Continues sending requests
-    WebServer ->> Attacker: Legitimate users Cannot connect
+    WebServer -x Attacker: Legitimate users Cannot connect
     Firewall ->> Attacker: Notifies about blocked IPs
